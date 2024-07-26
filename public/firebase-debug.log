@@ -1,0 +1,47 @@
+[debug] [2024-07-26T09:53:54.005Z] ----------------------------------------------------------------------
+[debug] [2024-07-26T09:53:54.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hridy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-26T09:53:54.030Z] CLI Version:   13.14.1
+[debug] [2024-07-26T09:53:54.031Z] Platform:      win32
+[debug] [2024-07-26T09:53:54.031Z] Node Version:  v20.13.1
+[debug] [2024-07-26T09:53:54.031Z] Time:          Fri Jul 26 2024 15:23:54 GMT+0530 (India Standard Time)
+[debug] [2024-07-26T09:53:54.032Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-26T09:53:54.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-26T09:53:54.054Z] > authorizing via signed-in user (hridyesh.gupta1206@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Downloads\All College Projects\Espresso-Entry
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-26T09:55:22.120Z] > refreshing access token with scopes: []
+[debug] [2024-07-26T09:55:22.124Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-26T09:55:22.125Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-26T09:55:22.885Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-07-26T09:55:22.885Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-26T09:55:22.906Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-07-26T09:55:23.822Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-07-26T09:55:23.822Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project espresso-entry (Espresso-Entry) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-26T09:55:26.230Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/espresso-entry [none]
+[debug] [2024-07-26T09:55:26.828Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/espresso-entry 200
+[debug] [2024-07-26T09:55:26.829Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/espresso-entry {"projectId":"espresso-entry","projectNumber":"444839082495","displayName":"Espresso-Entry","name":"projects/espresso-entry","resources":{"hostingSite":"espresso-entry"},"state":"ACTIVE","etag":"1_04eb1de6-5feb-46ea-be74-a15b8afd91df"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
