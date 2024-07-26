@@ -1,6 +1,6 @@
-# Cafe Landing Page
+# Espresso-Entry
 
-Welcome to the Cafe Landing Page repository! This project showcases a beautifully designed landing page for a coffee shop, crafted with HTML, CSS, and JavaScript. It's the perfect way to highlight your cafe's unique atmosphere and offerings online.
+Welcome to this Cafe Landing Page repository! This project showcases a beautifully designed landing page for a coffee shop, crafted with HTML, CSS, and JavaScript. It's the perfect way to highlight your cafe's unique atmosphere and offerings online.
 
 ## Features
 
